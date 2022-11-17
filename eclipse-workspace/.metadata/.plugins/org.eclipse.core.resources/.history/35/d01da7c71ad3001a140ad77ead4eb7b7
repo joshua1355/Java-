@@ -1,0 +1,13 @@
+
+public class Exercise6 {
+	public static void main(String args[]){
+		for(int i=3; i<=24; i*=2)
+			System.out.println(i);
+//		double k = Math.abs(-127.5);
+//		//System.out.println(Math.ceil(-157.2));
+//		//System.out.println(Math.ceil(157.2));
+//		//System.out.println(double b= p*Math.PI;);
+//		System.out.println(4%2==0);
+
+	}
+}

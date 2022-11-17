@@ -1,0 +1,19 @@
+
+public class Practice2 {
+	public static void main(String agrs[]) {
+		for(int i = 3 ; i <= 24;i*=2) {
+			System.out.print(i+" ");
+		}
+		
+//		double PI = 3.14;
+//		PI = 5;
+//		//System.out.println(PI);
+//		//double ab = (double)5/2;
+//		//System.out.print(ab);=
+//		int a = 10;
+//		int b = 5 + a++;
+		
+		
+//		System.out.println("A="+a+"B="+b);
+	}
+}

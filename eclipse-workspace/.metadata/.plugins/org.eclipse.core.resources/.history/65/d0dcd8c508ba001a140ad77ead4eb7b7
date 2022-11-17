@@ -1,0 +1,28 @@
+package chapter01;
+
+import java.util.Scanner;
+
+public class _09_Scanner {
+
+	public static void main(String[] args) {
+
+		Scanner console = new Scanner(System.in);
+
+		// get an integer.
+		// cf. what if user enters something other than an int?
+
+		
+		// get a floating point number
+
+		
+		// get a token (something separated by whitespace)
+
+		
+		// get a sentence
+
+		
+		console.close();
+		
+	}
+
+}

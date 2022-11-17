@@ -1,0 +1,28 @@
+
+public class Practice1 {
+	public static void main(String[] args) {
+		String ab= "tanava";
+		String ai = "Hello this is my place";
+		int count=0;
+		String[] arr = {"ab","ba","arr","aee"};
+		for(int i =0; i<arr.length; i++) {
+			if(arr[i].indexOf("a")!=-1) {
+				count++;
+			}
+		}
+		
+		String repl = "ass";
+		String target = "place";
+		for(int i =0; i<ai.length(); i++) {
+			ai =ai.substring(0,i)+repl+ai.substring(ai.indexOf(target)+target.length()));
+		}
+		System.out.println(count);
+		for(int i =0; i<ab.length()-1; i++) {
+			if(ab.substring(i,i+1).equals("a")) {
+				ab=ab.substring(0,i)+ab.substring(i+1,i+2)+ab.substring(i,i+1)+ab.substring(i+2);
+			}
+				
+		}
+		System.out.println(ab);
+	}
+}

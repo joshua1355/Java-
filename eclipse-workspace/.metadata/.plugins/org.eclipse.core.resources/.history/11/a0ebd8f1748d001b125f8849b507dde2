@@ -1,0 +1,13 @@
+
+public class Practice1 {
+	public static void main(String[] args) {
+	        int triSize = 10;
+	        for(int i = triSize; i >= 1; --i) {
+	            for(int k = i; k >= 1; --k) {
+	                System.out.print("* ");
+	            }
+	            System.out.println();
+	        }
+				
+	}
+}

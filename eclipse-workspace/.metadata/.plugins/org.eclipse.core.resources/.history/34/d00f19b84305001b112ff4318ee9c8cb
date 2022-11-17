@@ -1,0 +1,28 @@
+package chooseokProject;
+
+public class Monster {
+	//Instance Variable 
+	
+	String name;
+	int att, hp;
+	
+	//constrator 
+	public Monster (String monsterName, int ad, int heath) {
+		name = monsterName;
+		att = ad;
+		hp = heath;
+		
+	
+	}
+	//method 
+	public void monster() {
+		System.out.println(" Monster name " + name + " Attatck dam " + att + "Heath" + hp);
+			
+	}
+	
+	public void attack(Character ash) {
+		ash.hp = ash.hp-att;
+		
+	}
+}
+

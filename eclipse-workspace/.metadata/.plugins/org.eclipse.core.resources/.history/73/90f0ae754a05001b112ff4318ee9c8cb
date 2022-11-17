@@ -1,0 +1,30 @@
+package chooseokProject;
+
+public class Character {
+	//instance variable 
+	//name, hp, ad, mp, attack speed, ap, level, critical
+	int weapon = 0;
+	String name;
+	int hp, ad, level, critical,gold;
+	
+	//constructor
+	public Character(String userName, int health, int attackDamage) {
+		name = userName;
+		hp = health;
+		ad = attackDamage;
+		level = 1;
+		critical = 30;
+		gold = 0;
+	}
+	
+	//method - attack, show status.....
+	public void attack(Monster monster) {
+		monster.hp = monster.hp - ad;
+	}
+	//System out print 
+	public void showStatus(){
+		
+	}
+	
+	
+}

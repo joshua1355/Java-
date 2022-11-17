@@ -1,0 +1,15 @@
+
+public class Practice {
+	public static void main (String[] args) {
+//		String s1 = "school BUS";
+//		if(s1.equalsIgnoreCase("school bus"))
+//			System.out.println("Equal");
+//		else
+//			System.out.println("Not equal");
+//        String a = "apple";
+		int i = 10 ;
+		while( i<10 ) {
+			System.out.println("Apple");
+		}
+    }
+}

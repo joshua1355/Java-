@@ -1,0 +1,16 @@
+import java.util.Scanner; 
+public class Name {
+	public static void main(String[]args)
+	{	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("please enter you name");
+		String a = sc.next();
+		System.out.println(a);
+		String b;
+		for(int i=0;i<a.length(); i++) {
+			 b = a.substring(i,i+1)+b;
+			 System.out.println(b);
+		}
+		System.out.println(b);
+	}
+}

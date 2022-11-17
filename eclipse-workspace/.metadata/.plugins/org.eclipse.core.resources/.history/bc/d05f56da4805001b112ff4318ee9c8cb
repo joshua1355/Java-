@@ -1,0 +1,29 @@
+package chooseokProject;
+
+import java.util.*;
+
+public class Start {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Character user = new Character("Josh", 500, 35);
+		//explain about each room(NEWS)
+		/*
+		 * EAST hunting room
+		 * WEST store
+		 * NORTH boss
+		 * SOUTH healing room UMUL
+		 */
+		
+		System.out.println();
+		String ans = sc.next();
+		if(ans.equals("east")) {
+			
+		}
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+
+public class Practice2 {
+	public static void main(String agrs[]) {
+		 String a = "apple";
+		 System.out.println(a);
+		 String b = a.substring(3);
+		 System.out.println(b);
+	}
+}

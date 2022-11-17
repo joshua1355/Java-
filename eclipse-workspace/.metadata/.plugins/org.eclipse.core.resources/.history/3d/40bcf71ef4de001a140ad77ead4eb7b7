@@ -1,0 +1,14 @@
+
+public class Circle {
+	double radius;
+	
+	public Circle(double r) {
+		radius =r;
+	
+	}
+	String a = apple;
+	
+	public void print(String a) {
+		System.out.println(a);
+	}
+}

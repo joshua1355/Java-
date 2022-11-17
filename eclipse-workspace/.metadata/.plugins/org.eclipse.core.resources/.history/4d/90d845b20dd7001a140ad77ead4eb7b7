@@ -1,0 +1,20 @@
+
+public class LolCharacter {
+	//instance variable
+	String name;
+	int attack;
+	int movingSpeed;
+	double hp;
+	
+	//constructor
+	public LolCharacter(String n, int att, int speed, double health) {
+		name = n;
+		attack = att;
+		movingSpeed = speed;
+		hp =health;
+	}
+	
+	public void showStatus() {
+		System.out.print(name +" has "+attack+" attack power, "+ movingSpeed+"km/h, and "+hp+"hp");
+	}
+}

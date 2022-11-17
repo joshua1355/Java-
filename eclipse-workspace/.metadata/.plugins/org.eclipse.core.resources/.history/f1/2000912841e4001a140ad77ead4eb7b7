@@ -1,0 +1,59 @@
+
+public class Exercise6 {
+	public static void main(String args[]){
+//		String a = "apple";
+//		String b = "";
+//		for(int i = a.length()-1; i >= 0; i--) {
+//			b = b + a.substring(i,i+1);
+//		}
+//		
+//		System.out.print(b);
+		LolCharacter lc;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter ad = new LolCharacter("ash", 120, 300, 350);
+		LolCharacter lc1;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc2;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc3;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc4;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc5;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc6;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc7;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter lc8;
+		lc = new LolCharacter("Yasuo", 100, 400, 350);
+		LolCharacter [] lcArr = new LolCharacter[10];
+		lcArr[0] = new LolCharacter("Yasuo", 100, 400, 350);
+		
+	
+		
+		
+		
+		lcArr[0].showStatus();
+		ad.showStatus();
+		
+		lcArr[0].attack(ad);
+		ad.attack(lcArr[0]);
+		
+		lcArr[0].showStatus();
+		ad.showStatus();
+		
+		
+	}
+
+	public static void print(String a) {
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+	}
+	
+	
+}

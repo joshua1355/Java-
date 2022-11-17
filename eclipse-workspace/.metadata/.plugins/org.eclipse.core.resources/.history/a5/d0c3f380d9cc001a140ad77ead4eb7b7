@@ -1,0 +1,17 @@
+
+public class TesterLoop {
+	public static void main(String[]args) {
+		int j = 0;
+		for(int i = 0; i< 5; i++){
+			j++;
+		System.out.println(j);
+//			if(i == 4) {
+//				break;
+			
+			//for(int j = 0; j<8; j++) {
+			//System.out.println("inner");
+			//}
+		}
+		
+	}
+}

@@ -1,0 +1,13 @@
+
+public class arryay {
+	public static void main(String []srgs) { 
+		String [] std = new String[5];
+		std[1] = "Apple";
+		std[2] = "iPhone";
+		std[3] = "MacBook";
+		std[4] = "MacBook Pro";
+		System.out.println(std[1]);
+	}
+		char [] phd = new char[5];
+		phd[1] = "a";
+}

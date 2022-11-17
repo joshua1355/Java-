@@ -1,0 +1,26 @@
+
+public class Exercise6 {
+	public static void main(String args[]){
+//		String a = "apple";
+//		String b = "";
+//		for(int i = a.length()-1; i >= 0; i--) {
+//			b = b + a.substring(i,i+1);
+//		}
+//		
+//		System.out.print(b);
+		LolCharacter lc = new LolCharacter("Yasuo", 100, 400, 350);
+		lc.showStatus();
+		System.out.print("\n"+lc.getName());
+	}
+	
+	public static void print(String a) {
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+		System.out.println(a);
+	}
+	
+	
+}

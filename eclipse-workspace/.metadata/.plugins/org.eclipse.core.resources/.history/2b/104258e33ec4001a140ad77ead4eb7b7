@@ -1,0 +1,11 @@
+
+public class Practice1 {
+	public static void main (String[] args)
+    {
+        String a = "Hello World";
+        int aa = 10;
+        double ab = 10.0;
+        //System.out.println(5+6*5);
+        System.out.println(true && !false);
+    }
+}

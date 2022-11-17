@@ -1,0 +1,32 @@
+package chapter01;
+
+public class _07_OperatorOperand {
+
+	public static void main(String[] args) {
+
+		// operators and operand
+
+		
+		// types of operators:
+		// arithmetic: + - * / 
+		// relational: == != < > <= >=
+		// increment/decrement: ++ --
+		// modulo: %
+		// logical: && || !
+		// assignment: = += -= *= /=
+		// ternary: ? : 
+
+		
+		// precedence
+
+		
+		// Math class
+
+		
+		// constants
+
+		
+
+	}
+
+}

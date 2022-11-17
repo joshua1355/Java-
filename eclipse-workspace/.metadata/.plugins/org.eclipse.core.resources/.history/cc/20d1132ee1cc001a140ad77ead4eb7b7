@@ -1,0 +1,20 @@
+
+public class Practice {
+	public static void main (String[] args) {
+		String s = "09";
+		String aa = "Hello World";
+		int b = 10;
+		double ab = 10.2;
+		int a = 10*9;
+		b*=10;
+		int y = 30;
+		int x = 40;
+		x%= 3;
+        System.out.println(x);
+      
+        //b+=10 ---> b = b+10//
+        //b++; ----> plus one // 
+        //b--; -----> 3
+        
+    }
+}

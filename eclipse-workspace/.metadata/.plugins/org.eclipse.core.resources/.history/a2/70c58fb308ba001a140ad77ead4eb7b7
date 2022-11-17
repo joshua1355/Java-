@@ -1,0 +1,15 @@
+package chapter01;
+
+public class _01_DataTypes {
+
+	public static void main(String[] args) {
+
+		// the primitive data types: integer, floating point, char, boolean
+
+		
+		// variables: declare, then initialize.
+
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Practice1 {
+	public static void main(String[] args) {
+		String ab= "tanava";
+
+		for(int i =0; i<ab.length()-1; i++) {
+			if(ab.substring(i,i+1).equals("a")) {
+				ab=ab.substring(0,i)+ab.substring(i+1,i+2)+ab.substring(i,i+1)+ab.substring(i+2);
+			}
+				
+		}
+		System.out.println(ab);
+	}
+}
